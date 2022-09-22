@@ -1,8 +1,8 @@
 import * as _crypto from "crypto";
 
 export class Tag {
-    private readonly data: Set<any>;
-    private readonly constants: Map<Tag, Tag>;
+    private data: Set<any>;
+    private constants: Map<Tag, Tag>;
     private variables: Map<Tag, Tag>;
     private contexts: Set<any>;
     constructor() {
